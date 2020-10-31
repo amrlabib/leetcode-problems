@@ -4,7 +4,7 @@ https://leetcode.com/problems/add-binary/
 
 ## Solution 1:
 
-In this solution we user the normal addition of bit numbers and move carry to the next bit location
+In this solution we use the normal addition of bit numbers and move carry to the next bit location
 
 ```javascript
 /**
@@ -53,4 +53,31 @@ var addBinary = function(a, b) {
     }
     return sumResult;
 };
+```
+
+
+## Solution 2:
+
+In this solution we will use bit manipulation to be able to add both binary numbers.
+
+1. Apply bitwise XOR `^` on a and b `a ^ b` this will return the sum result without considering carry
+2. Apply bitwise AND `&` on a and b and then shift the result by 1 to the left `(a & b) << 1`
+3. check if the result of step 2 is not 0 then add result from 1 and 2
+4. repeat step 3 until result from step 2 is 0, now the final result will be the result from step 1 in last iteration
+
+```javascript
+
+var addBinary = function(a, b) {
+    let firstNumber = BigInt('0b' + a);
+    let secondNumber = BigInt('0b' + b);
+    while(secondNumber) {
+        const xOrResult = firstNumber ^ secondNumber;
+        const carryResult = (firstNumber & secondNumber) << 1n;
+        
+        firstNumber = xOrResult;
+        secondNumber = carryResult;
+    }
+    return firstNumber.toString(2);
+};
+
 ```
