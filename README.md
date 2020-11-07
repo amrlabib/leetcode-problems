@@ -13,3 +13,4 @@ This repository contains few leetcode problems and solution, each solution will 
 7. [3Sum](3sum.md)
 8. [Remove Duplicates from Sorted Array](remove-duplicate-from-sorted-array.md)
 9. [Add Binary](add-binary.md)
+9. [Merge Two Sorted Lists](merge-two-sorted-lists.md)
