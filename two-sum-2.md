@@ -2,7 +2,10 @@
 
 https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 
+
 ## Solution:
+
+The idea in this problem is the fact that the array is sorted and this mean that if assign a pointer to the min value (first value) and a pointer to the max value (last value) and check if the sum is equal to target we can loop only once on the entire array to get the correct answer, if the values are equal we return the indexes if the sum is greater than the value we move the max pointer 1 index to the left if the value the sum is smaller we move the min pointer one index forward this way we can find the indexes with sum equal to target
 
 ```javascript
 /**
