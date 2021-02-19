@@ -1,5 +1,7 @@
 ## Minimum Remove to Make Valid Parentheses
 
+https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
+
 ## Solution:
 
 In this solution we use a stack data structure, we add every open parenthesis to the stack and we pop whenever we get a close parentheses, if a close parenthesis is found and stack is empty it means this close parenthesis should be removed, also if at the end of the scan we have any parenthesis in the stack they should be removed.
