@@ -4,7 +4,7 @@ https://leetcode.com/problems/two-sum/
 
 ## Solution 1 O(2n):
 
-Using hash map where the key is the value of each array index value, and the value is the index, we will loop on all array elements and check if (target - element value) exist in array 
+Using hash map where the key is the value of each array index value, and the value is the index, we will loop on all array elements and check if (target - element value) exist in the hash map 
 
 ```javascript
 /**
