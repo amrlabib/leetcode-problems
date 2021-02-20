@@ -4,6 +4,8 @@ https://leetcode.com/problems/3sum/
 
 ## Solution:
 
+This solution will use the window sliding for sorted array, and apply it for each item so the solution will be O(n^2), first we sort the array, then we loop on each element, and for each element we loop through the rest of the array using the sliding window technique, this way the problem is changed to be 2 sum problem with one extra number which will cause the n^2 complexity
+
 ```javascript
 /**
  * @param {number[]} nums
