@@ -15,3 +15,4 @@ This repository contains few leetcode problems and solution, each solution will 
 9. [Add Binary](add-binary.md)
 10. [Merge Two Sorted Lists](merge-two-sorted-lists.md)
 12. [Merge Sorted Array](merge-sorted-array.md)
+13. [Search in rotated sorted array](search-in-rotated-sorted-array.md)
