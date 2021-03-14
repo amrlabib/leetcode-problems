@@ -19,4 +19,5 @@ This repository contains few leetcode problems and solution, each solution will 
 14. [Find First and Last Position of Element in Sorted Array](find-first-and-last-position-of-element.md)
 15. [Letter Combinations of a Phone Number](letter-combinations-of-a-phone-number.md)
 16. [Intersection of Two Arrays](intersection-of-two-arrays.md)
-16. [Intersection of Two Arrays 2](intersection-of-two-arrays-2.md)
+17. [Intersection of Two Arrays 2](intersection-of-two-arrays-2.md)
+18. [Permutations](permutations.md)
