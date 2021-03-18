@@ -21,3 +21,4 @@ This repository contains few leetcode problems and solution, each solution will 
 16. [Intersection of Two Arrays](intersection-of-two-arrays.md)
 17. [Intersection of Two Arrays 2](intersection-of-two-arrays-2.md)
 18. [Permutations](permutations.md)
+19. [Permutations-2](permutations-2.md)
