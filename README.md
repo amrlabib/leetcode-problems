@@ -23,3 +23,4 @@ This repository contains few leetcode problems and solution, each solution will 
 18. [Permutations](permutations.md)
 19. [Permutations-2](permutations-2.md)
 20. [Regular Expression Matching](regular-expression-matching.md)
+21. [Flatten Binary Tree to Linked List](flatten-binary-tree-to-linked-list.md)
