@@ -24,4 +24,5 @@ This repository contains few leetcode problems and solution, each solution will 
 18. [Permutations-2](permutations-2.md)
 19. [Regular Expression Matching](regular-expression-matching.md)
 20. [Flatten Binary Tree to Linked List](flatten-binary-tree-to-linked-list.md)
-20. [Binary Tree Maximum Path Sum](binary-tree-maximum-path-sum.md)
+21. [Binary Tree Maximum Path Sum](binary-tree-maximum-path-sum.md)
+22. [Binary Tree Paths](binary-tree-paths.md)
