@@ -28,3 +28,4 @@ This repository contains few leetcode problems and solution, each solution will 
 22. [Binary Tree Paths](binary-tree-paths.md)
 23. [Shortest Distance from All Buildings](shortest-distance-from-all-buildings.md)
 24. [Binary Tree Vertical Order Traversal](binary-tree-vertical-order-traversal.md)
+25. [Longest Palindromic Substring](longest-palindromic-substring.md)
