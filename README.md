@@ -31,3 +31,4 @@ This repository contains few leetcode problems and solution, each solution will 
 25. [Longest Palindromic Substring](longest-palindromic-substring.md)
 26. [Longest Common Subsequence](longest-common-subsequence.md)
 27. [Longest Common Prefix](longest-common-prefix.md)
+28. [Longest Valid Parentheses](longest-valid-parentheses.md)
