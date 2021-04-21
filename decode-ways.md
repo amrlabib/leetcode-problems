@@ -4,7 +4,28 @@ https://leetcode.com/problems/decode-ways/
 
 ## Solution:
 
+The solution is based on dynamic programming where we find count for each index based on count of the smaller subset of the string recursively and we make sure to memoize the result of each call to use it if required later
+
+
+This is an example of a string 1224 and below is the visualization of each call result starting from bottom, notice that our implementation is top-bottom implementation so code will find the last section in this list based on the section above it
+
 ```javascript
+// 1
+// -------------
+// 1-2
+// 12
+// -------------
+// 1-2-(2)
+// 12-(2)
+// 1-(22)
+// -------------
+// 1-2-2-(4)
+// 12-2-(4)
+// 1-22-(4)
+// 1-2-(24)
+// 12-(24)
+// -------------
+
 var numDecodings = function(s) {
     let memo = [];
     function decodeLength(s, i) {
