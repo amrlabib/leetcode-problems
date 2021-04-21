@@ -34,3 +34,4 @@ This repository contains few leetcode problems and solution, each solution will 
 28. [Longest Valid Parentheses](longest-valid-parentheses.md)
 29. [Valid Parenthesis String](valid-parenthesis-string.md)
 30. [Valid Parentheses](valid-parentheses.md)
+31. [Decode Ways](decode-ways.md)
