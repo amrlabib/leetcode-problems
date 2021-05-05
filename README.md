@@ -39,3 +39,4 @@ This repository contains few leetcode problems and solution, each solution will 
 33. [Best Time to Buy and Sell Stock II](best-time-to-buy-and-sell-stock-II.md)
 34. [Robot Bounded In Circle](robot-bounded-in-circle.md)
 35. [LRU Cache](lru-cache.md)
+36. [Number of Islands](number-of-islands.md)
