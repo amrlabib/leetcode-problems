@@ -40,3 +40,4 @@ This repository contains few leetcode problems and solution, each solution will 
 34. [Robot Bounded In Circle](robot-bounded-in-circle.md)
 35. [LRU Cache](lru-cache.md)
 36. [Number of Islands](number-of-islands.md)
+37. [Merge Intervals](merge-intervals.md)
