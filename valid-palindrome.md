@@ -4,7 +4,7 @@ https://leetcode.com/problems/valid-palindrome/description/
 
 ## Solution
 
-```javasript
+```javascript
 var isPalindrome = function(s) {
     let leftPointer = 0;
     let rightPointer = s.length - 1;
